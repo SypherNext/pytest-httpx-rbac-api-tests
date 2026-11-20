@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+report.html
+htmlcov/
+.coverage
+allure-results/
+*.egg-info/
+.env
