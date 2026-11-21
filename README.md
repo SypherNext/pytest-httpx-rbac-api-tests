@@ -60,7 +60,7 @@ test_users_capstone.py           full coverage of users + registration
 ## What this is testing
 
 This suite tests
-[`rbac-healthcare-system`](https://github.com/codedbyabhishekc/rbac-healthcare-system),
+[`rbac-healthcare-system`](https://github.com/SypherNext/rbac-healthcare-system),
 a small Express/SQLite API with JWT auth and 4 roles (Administrator,
 Doctor, Nurse, Patient). This repo is a completely separate project from
 it -- it only ever talks to the backend over plain HTTP on
@@ -71,7 +71,7 @@ it -- it only ever talks to the backend over plain HTTP on
 ### 1. Clone and run the backend under test
 
 ```bash
-git clone https://github.com/codedbyabhishekc/rbac-healthcare-system.git
+git clone https://github.com/SypherNext/rbac-healthcare-system.git
 cd rbac-healthcare-system/backend
 npm install
 mkdir database
